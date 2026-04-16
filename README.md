@@ -25,15 +25,15 @@ AI Interior Design is a frontend web application that helps users visualize room
 
 ```text
 AI-Interior-Design/
-│── index.html
-│── style.css
-│── script.js
+│── AIinteriordesign.html
+│── AIinter.css
+│── AIinter.js
 ```
 
 ## How to Run
 
 1. Download or clone the project.
-2. Open `index.html` in any browser.
+2. Open `AIinteriordesign.html` in any browser.
 3. Upload a room image.
 4. Select style.
 5. Click **Generate Design**.
