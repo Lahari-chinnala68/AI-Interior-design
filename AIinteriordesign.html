@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Interior Design Demo</title>
+<link rel="stylesheet" href="AIinter.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Interior Design</h1>
+
+<h3>Upload Empty Room Image</h3>
+<input type="file" id="image" accept="image/*">
+
+<br>
+
+<select id="style">
+<option value="modern">Modern</option>
+<option value="luxury">Luxury</option>
+<option value="minimal">Minimal</option>
+</select>
+
+<br><br>
+
+<button onclick="generateDesign()">Generate Design</button>
+
+<p id="loading"></p>
+
+<div class="preview">
+<h3>Your Uploaded Room</h3>
+<img id="previewImg">
+</div>
+
+<div class="gallery">
+
+<div class="card">
+<h2>Design 1</h2>
+<img id="img1">
+</div>
+
+<div class="card">
+<h2>Design 2</h2>
+<img id="img2">
+</div>
+
+<div class="card">
+<h2>Design 3</h2>
+<img id="img3">
+</div>
+
+</div>
+
+</div>
+ <script src="AIinter.js"></script>
+</body>
+</html>
